@@ -1,0 +1,33 @@
+{
+  "cards": [
+    {
+      "id": "firebolt_001",
+      "name": "Firebolt",
+      "rarity": "Common",
+      "types": ["Instant"],
+      "manaCost": [
+        { "symbol": "R", "amount": 1 }
+      ],
+      "rulesText": "Firebolt deals 2 damage to any target.",
+      "power": 0,
+      "toughness": 0,
+      "set": "BASE",
+      "keywords": ["Red"]
+    },
+    {
+      "id": "ember_ogre_007",
+      "name": "Ember Ogre",
+      "rarity": "Uncommon",
+      "types": ["Creature", "Ogre"],
+      "manaCost": [
+        { "symbol": "R", "amount": 1 },
+        { "symbol": "Generic", "amount": 3 }
+      ],
+      "rulesText": "Haste.",
+      "power": 4,
+      "toughness": 2,
+      "set": "BASE",
+      "keywords": ["Red"]
+    }
+  ]
+}
