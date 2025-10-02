@@ -45,9 +45,16 @@ public class CardDatabase
 
 public class CardParser : MonoBehaviour
 {
+    [SerializeField]
+    CardObject cardObjectPrefab;
     public List<CardDataModel> cards = new();
 
     private void Awake() => LoadCards();
+
+    private void Start()
+    {
+        SpawnCard(cards[1]);
+    }
 
     private void LoadCards()
     {
@@ -68,6 +75,11 @@ public class CardParser : MonoBehaviour
 
         cards = db.cards;
         Debug.Log($"Loaded {cards.Count} cards.");
+    }
+
+    private void SpawnCard(CardDataModel data)
+    {
+        Instantiate(cardObjectPrefab).Initialize(data);
     }
 }
 

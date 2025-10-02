@@ -9,8 +9,8 @@
         { "symbol": "R", "amount": 1 }
       ],
       "rulesText": "Firebolt deals 2 damage to any target.",
-      "power": 0,
-      "toughness": 0,
+      "power": -1,
+      "toughness": -1,
       "set": "BASE",
       "keywords": ["Red"]
     },
