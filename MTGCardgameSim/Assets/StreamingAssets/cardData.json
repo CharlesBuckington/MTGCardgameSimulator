@@ -1,33 +1,338 @@
 {
   "cards": [
     {
-      "id": "firebolt_001",
-      "name": "Firebolt",
+      "id": "Lesser Hollow_001",
+      "name": "Lesser Hollow",
       "rarity": "Common",
-      "types": ["Instant"],
-      "manaCost": [
-        { "symbol": "R", "amount": 1 }
+      "types": [
+        "Creature",
+        "Zombie"
       ],
-      "rulesText": "Firebolt deals 2 damage to any target.",
-      "power": -1,
-      "toughness": -1,
-      "set": "BASE",
-      "keywords": ["Red"]
+      "manaCost": [
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "Hollowing 1",
+      "power": 1,
+      "toughness": 2,
+      "set": "DKS",
+      "keywords": [
+        "Hollowing"
+      ]
     },
     {
-      "id": "ember_ogre_007",
-      "name": "Ember Ogre",
-      "rarity": "Uncommon",
-      "types": ["Creature", "Ogre"],
-      "manaCost": [
-        { "symbol": "R", "amount": 1 },
-        { "symbol": "Generic", "amount": 3 }
+      "id": "Worker Hollow_001",
+      "name": "Worker Hollow",
+      "rarity": "Common",
+      "types": [
+        "Creature",
+        "Zombie",
+        "Peasant"
       ],
-      "rulesText": "Haste.",
-      "power": 4,
+      "manaCost": [
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "GyEx Scry 1; Hollowing 2",
+      "power": 1,
       "toughness": 2,
-      "set": "BASE",
-      "keywords": ["Red"]
+      "set": "DKS",
+      "keywords": [
+        "GyEx"
+      ]
+    },
+    {
+      "id": "Hollow Infantry_001",
+      "name": "Hollow Infantry",
+      "rarity": "Common",
+      "types": [
+        "Creature",
+        "Zombie",
+        "Soldier"
+      ],
+      "manaCost": [
+        {
+          "symbol": "Generic",
+          "amount": 1
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "Hollowing 2, Vigilance",
+      "power": 2,
+      "toughness": 2,
+      "set": "DKS",
+      "keywords": [
+        "Hollowing",
+        "Vigilance"
+      ]
+    },
+    {
+      "id": "Undead Archer_001",
+      "name": "Undead Archer",
+      "rarity": "Common",
+      "types": [
+        "Creature",
+        "Zombie",
+        "Soldier",
+        "Ranger"
+      ],
+      "manaCost": [
+        {
+          "symbol": "Generic",
+          "amount": 1
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "Reach, Hollowing 2",
+      "power": 3,
+      "toughness": 1,
+      "set": "DKS",
+      "keywords": [
+        "Hollowing"
+      ]
+    },
+    {
+      "id": "PLACEHOLDERCHIMER_001",
+      "name": "PLACEHOLDERCHIMER",
+      "rarity": "Common",
+      "types": [
+        "Creature"
+      ],
+      "manaCost": [
+        {
+          "symbol": "Generic",
+          "amount": 1
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "Catalyst: Chime, GyEx: if first time this turn, draw a card",
+      "power": 2,
+      "toughness": 2,
+      "set": "DKS",
+      "keywords": [
+        "CatalystChime",
+        "GyEx"
+      ]
+    },
+    {
+      "id": "Undead Merchant_001",
+      "name": "Undead Merchant",
+      "rarity": "Common",
+      "types": [
+        "Creature",
+        "Zombie"
+      ],
+      "manaCost": [
+        {
+          "symbol": "Generic",
+          "amount": 2
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "ETB Draw - Hollowing 5, ETB: surveil 1 then you may exile a creature card from your graveyard, if you do draw a card",
+      "power": 2,
+      "toughness": 3,
+      "set": "DKS",
+      "keywords": [
+        "Hollowing"
+      ]
+    },
+    {
+      "id": "Hollow Priest_001",
+      "name": "Hollow Priest",
+      "rarity": "Common",
+      "types": [
+        "Creature",
+        "Cleric"
+      ],
+      "manaCost": [
+        {
+          "symbol": "Generic",
+          "amount": 2
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "Catalyst: Chime: +1 health to player, Tap: Exile a card from your graveyard, Creature Gains +0/+3 until end of turn",
+      "power": 1,
+      "toughness": 2,
+      "set": "DKS",
+      "keywords": [
+        "CatalystChime",
+        "GyEx"
+      ]
+    },
+    {
+      "id": "(Lothric) Knight_001",
+      "name": "(Lothric) Knight",
+      "rarity": "Common",
+      "types": [
+        "Creature",
+        "Knight"
+      ],
+      "manaCost": [
+        {
+          "symbol": "Generic",
+          "amount": 3
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "Hollowing 4, Vigilance, AtOBl: +1/+1",
+      "power": 4,
+      "toughness": 5,
+      "set": "DKS",
+      "keywords": [
+        "Hollowing",
+        "Vigilance",
+        "AtOBl"
+      ]
+    },
+    {
+      "id": "Cathedral Knight_001",
+      "name": "Cathedral Knight",
+      "rarity": "Common",
+      "types": [
+        "Creature",
+        "Knight",
+        "Cleric"
+      ],
+      "manaCost": [
+        {
+          "symbol": "Generic",
+          "amount": 4
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "Vigilance, Catalyst: Chime, GyEx:+2life",
+      "power": 5,
+      "toughness": 5,
+      "set": "DKS",
+      "keywords": [
+        "Vigilance",
+        "CatalystChime",
+        "GyEx"
+      ]
+    },
+    {
+      "id": "Hollow Knight Greatshield?_001",
+      "name": "Hollow Knight Greatshield?",
+      "rarity": "Common",
+      "types": [
+        "Artifact",
+        "Equipment"
+      ],
+      "manaCost": [
+        {
+          "symbol": "Generic",
+          "amount": 1
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "+0/+3 AtOBl: +0/+2",
+      "power": -1,
+      "toughness": -1,
+      "set": "DKS",
+      "keywords": [
+        "AtOBl"
+      ]
+    },
+    {
+      "id": "Soul Appease_001",
+      "name": "Soul Appease",
+      "rarity": "Common",
+      "types": [
+        "Sorcery"
+      ],
+      "manaCost": [
+        {
+          "symbol": "Generic",
+          "amount": 4
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "exile target creature (Catalyst: if target is tapped: costs 1 less), costs 2 less if it targets a Zombie or Skeleton",
+      "power": -1,
+      "toughness": -1,
+      "set": "DKS",
+      "keywords": []
+    },
+    {
+      "id": "Sacred Oath_001",
+      "name": "Sacred Oath",
+      "rarity": "Common",
+      "types": [
+        "Instant"
+      ],
+      "manaCost": [
+        {
+          "symbol": "Generic",
+          "amount": 2
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "all soldiers and knights gain +1/+3 (Catalyst additional +1 attack) until end of turn, for each creature that dies this turn, gain 1 life",
+      "power": -1,
+      "toughness": -1,
+      "set": "DKS",
+      "keywords": [
+        "AtOBl"
+      ]
+    },
+    {
+      "id": "Emit Force_001",
+      "name": "Emit Force",
+      "rarity": "Common",
+      "types": [
+        "Instant"
+      ],
+      "manaCost": [
+        {
+          "symbol": "Generic",
+          "amount": 1
+        },
+        {
+          "symbol": "W",
+          "amount": 1
+        }
+      ],
+      "rulesText": "enchantment removal, target enchantment destroy(Catalyst: up to 2 targets instead)",
+      "power": -1,
+      "toughness": -1,
+      "set": "DKS",
+      "keywords": []
     }
   ]
 }

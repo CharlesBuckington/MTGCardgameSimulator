@@ -146,7 +146,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6082764305313535762}
   - component: {fileID: 3398775654411177611}
-  m_Layer: 0
+  - component: {fileID: 37822750442978196}
+  m_Layer: 6
   m_Name: CardObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -188,6 +189,52 @@ MonoBehaviour:
   powerToughnessText: {fileID: 5995405549759110406}
   manaSymbolParent: {fileID: 4939384237138850310}
   manaSymbolPrefab: {fileID: 3169831992642636999, guid: 96f24942d18aa504dbb66313bec93339, type: 3}
+--- !u!61 &37822750442978196
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3270620247648104952}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1.6, y: 2.1}
+  m_EdgeRadius: 0
 --- !u!1 &3679294375732496378
 GameObject:
   m_ObjectHideFlags: 0

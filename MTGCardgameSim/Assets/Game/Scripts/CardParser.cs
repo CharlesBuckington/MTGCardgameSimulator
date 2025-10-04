@@ -45,16 +45,14 @@ public class CardDatabase
 
 public class CardParser : MonoBehaviour
 {
-    [SerializeField]
-    CardObject cardObjectPrefab;
-    public List<CardDataModel> cards = new();
+    private List<CardDataModel> allCards = new List<CardDataModel>();
+    public List<CardDataModel> AllCards => allCards;
+    public CardDataModel GetRandomCard()
+    {
+        return allCards[UnityEngine.Random.Range(0, allCards.Count)];
+    }
 
     private void Awake() => LoadCards();
-
-    private void Start()
-    {
-        SpawnCard(cards[1]);
-    }
 
     private void LoadCards()
     {
@@ -73,13 +71,8 @@ public class CardParser : MonoBehaviour
             return;
         }
 
-        cards = db.cards;
-        Debug.Log($"Loaded {cards.Count} cards.");
-    }
-
-    private void SpawnCard(CardDataModel data)
-    {
-        Instantiate(cardObjectPrefab).Initialize(data);
+        allCards = db.cards;
+        Debug.Log($"Loaded {allCards.Count} cards.");
     }
 }
 
